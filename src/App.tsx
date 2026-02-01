@@ -333,16 +333,6 @@ function App() {
               </Flex>
             </Box>
           </VStack>
-
-          {/* Footer */}
-          <Box mt={8} pt={4} borderTop="1px solid #ddd">
-            <Text fontSize="xs" color="#666" textAlign="center">
-              Simulateur pour{" "}
-              <a href="https://apprendre.photo" target="_blank" style={{ color: "#FB9936", fontWeight: "bold" }}>
-                Apprendre.Photo
-              </a>
-            </Text>
-          </Box>
         </Box>
       </Flex>
     </Box>
