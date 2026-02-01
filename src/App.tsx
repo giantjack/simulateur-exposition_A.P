@@ -52,8 +52,8 @@ const SCENES = [
   { name: "Nuit urbaine", ev: 3, icon: "🌃" },
 ];
 
-// Image Unsplash (portrait en extérieur, libre de droits)
-const SAMPLE_IMAGE = "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&q=80";
+// Image Apprendre.Photo
+const SAMPLE_IMAGE = "https://apprendre-la-photo.fr/wp-content/uploads/2022/10/P1230573.jpg";
 
 function App() {
   const [apertureIndex, setApertureIndex] = useState(4); // f/4
@@ -182,14 +182,6 @@ function App() {
               </Text>
             </HStack>
           </Box>
-
-          {/* Crédit photo */}
-          <Text fontSize="xs" color="#999" mt={2} textAlign="center">
-            Photo:{" "}
-            <a href="https://unsplash.com/@afrashidnawab" target="_blank" style={{ color: "#FB9936" }}>
-              Afrashid Nawab
-            </a>
-          </Text>
         </Box>
 
         {/* Colonne droite : Contrôles */}
