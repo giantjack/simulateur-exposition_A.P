@@ -38,7 +38,7 @@ const SHUTTER_SPEEDS = [
 ];
 
 // Valeurs ISO courantes
-const ISO_VALUES = [100, 200, 400, 800, 1600, 3200, 6400, 12800];
+const ISO_VALUES = [100, 200, 400, 800, 1600, 3200, 6400, 12800, 25600];
 
 // Scènes avec leur EV de référence
 const SCENES = [
@@ -328,8 +328,8 @@ function App() {
                 </Slider>
               </Box>
               <Flex justify="space-between" mt={5} fontSize="xs" color="#888">
-                <Text>- bruit / - sensible</Text>
-                <Text>+ sensible / + bruit</Text>
+                <Text>- lumière / - bruit</Text>
+                <Text>+ lumière / + bruit</Text>
               </Flex>
             </Box>
           </VStack>
